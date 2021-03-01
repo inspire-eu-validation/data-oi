@@ -2,8 +2,9 @@
 
 **Purpose**: Verify that the following specic requirements on reference systems are meet.
 
-	(1) Data related to the spatial data theme Orthoimagery shall be restricted to two-dimensional geometries.
-	(2) Only two-dimensional coordinate reference systems shall be used to represent INSPIRE orthoimagery data sets.
+(1) Data related to the spatial data theme Orthoimagery shall be restricted to two-dimensional geometries.
+
+(2) Only two-dimensional coordinate reference systems shall be used to represent INSPIRE orthoimagery data sets.
 
 
 **Prerequisites**
