@@ -58,8 +58,8 @@ The namespace prefixes used as described in [README](./README.md#namespaces).
 
 Abbreviation                                               |  XPath expression                     |Multiplicity       |Voidable
 ---------------------------------------------------------- | ------------------------------------- | ------------------|----------
-phenomenonTime <a name="phenomenonTime"></a> | //schema-element(oi:OrthoimageCoverage)/oi:phenomenonTime/@xlink:href | 0..1 | Yes
-mosaicElement <a name="mosaicElement"></a> | //schema-element(oi:OrthoimageCoverage)/oi:mosaicElement/@xlink:href | 0..\* | Yes
+phenomenonTime <a name="phenomenonTime"></a> | //schema-element(oi:OrthoimageCoverage)/oi:phenomenonTime | 0..1 | Yes
+mosaicElement <a name="mosaicElement"></a> | //schema-element(oi:OrthoimageCoverage)/oi:mosaicElement | 0..\* | Yes
 dimension <a name="dimension"></a> | //schema-element(oi:OrthoimageCoverage)/gml:domainSet/gml:RectifiedGrid/@dimension | 1 | Not applicable
 domainExtent <a name="domainExtent"></a> | //schema-element(oi:OrthoimageCoverage)/oi:domainExtent/gmd:EX_Extent/gmd:geographicElement | 1..\* | No
 origin CRS <a name="originCRS"></a> | //schema-element(oi:OrthoimageCoverage)/gml:domainSet/gml:RectifiedGrid/gml:origin/gml:Point/@srsName | 0..1 | Not applicable
